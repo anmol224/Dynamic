@@ -42,11 +42,7 @@ footer
 @media(max-width:800px)
 {
     
-    body 
-    {
-        width: 100%;
-      
-    }
+  
     #time
     {
         font-size: 2rem;
