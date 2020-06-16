@@ -1,3 +1,7 @@
+*
+{
+    box-sizing: border-box;
+}
 body
 {
    font-family: 'Quicksand', sans-serif;
@@ -12,14 +16,40 @@ body
 }
 h1
 {
+    
     font-weight: bold;
 }
 #time
 {
-    font-size: 8rem;
+    font-size: 7rem;
+    text-align: center;
+ 
 }
 h2
 {
+    font-size: 2rem;
+   
  color: aliceblue;
-    opacity: 1.0;
+    opacity: 0.9;
+}
+footer
+{
+    color: black;
+    font-weight: bold;
+    background-color: azure;
+    padding: 0.2rem;
+}
+@media(max-width:800px)
+{
+    
+    body 
+    {
+        width: 100%;
+      
+    }
+    #time
+    {
+        font-size: 10vw;
+    }
+
 }
