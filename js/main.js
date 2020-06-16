@@ -11,8 +11,7 @@ function showtime()
     let sec=today.getSeconds();
     ampm=hrs>=12?'PM':'AM';
     hrs=hrs%12 || hrs;
-    time.innerHTML=`${addzero(hrs)}<span>:</span>${addzero(min)}<span>:</span>
-    ${addzero(sec)} ${showampm?ampm:''}`
+    time.innerHTML=`${addzero(hrs)}<span>:</span>${addzero(min)}<span>:</span>${addzero(sec)} ${showampm?ampm:''}`
     setTimeout(showtime,1000)
 
 }
