@@ -1,3 +1,7 @@
+*
+{
+    box-sizing: border-box;
+}
 body
 {
    font-family: 'Quicksand', sans-serif;
@@ -12,11 +16,21 @@ body
 }
 h1
 {
+    
     font-weight: bold;
 }
 #time
 {
-    font-size: 8rem;
+    font-size: 7rem;
+    text-align: center;
+ 
+}
+h2
+{
+    font-size: 2rem;
+   
+ color: aliceblue;
+    opacity: 0.9;
 }
 footer
 {
@@ -25,8 +39,17 @@ footer
     background-color: azure;
     padding: 0.2rem;
 }
-h2
+@media(max-width:800px)
 {
- color: aliceblue;
-    opacity: 1.0;
+    
+    body 
+    {
+        width: 100%;
+      
+    }
+    #time
+    {
+        font-size: 10vw;
+    }
+
 }
