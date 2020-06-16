@@ -18,6 +18,13 @@ h1
 {
     font-size: 8rem;
 }
+footer
+{
+    color: black;
+    font-weight: bold;
+    background-color: azure;
+    padding: 0.2rem;
+}
 h2
 {
  color: aliceblue;
