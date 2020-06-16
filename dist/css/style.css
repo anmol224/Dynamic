@@ -1,0 +1,25 @@
+body
+{
+   font-family: 'Quicksand', sans-serif;
+   display:flex;
+   flex-direction:column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   height: 100vh;
+  overflow: hidden;
+}
+h1
+{
+    font-weight: bold;
+}
+#time
+{
+    font-size: 8rem;
+}
+h2
+{
+ color: aliceblue;
+    opacity: 1.0;
+}
