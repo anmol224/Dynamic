@@ -34,7 +34,7 @@ function bgstyle()
     document.body.style.backgroundAttachment="fixed"
      
     }
-     else if(hrs>12 && hrs<18)
+     else if(hrs>=12 && hrs<=18)
     {
         document.body.style.backgroundImage="url(img/afternoon.jpg)"
         greet.innerText="Good Afternoon"
